@@ -29,7 +29,7 @@ No es necesario instalar nada extra, Gradle descarga y configura todo automátic
 1. Abre el proyecto en IntelliJ como proyecto Gradle.
 2. Espera que descargue las dependencias.
 3. Navega a `src/main/java/com/main/App.java`.
-4. Haz clic derecho en `App` → **Run 'App.main()'**.
+4. Hacé clic derecho en `App` → **Run 'App.main()'**.
 5. La consola mostrará el menú principal para interactuar.
 
 ### Opción 2: Desde la terminal
@@ -39,9 +39,10 @@ No es necesario instalar nada extra, Gradle descarga y configura todo automátic
 
    ```bash
    ./gradlew build
-3. Ejecuta el programa con el comando:  
+3. Ejecuta el programa con el comando:
+   ```bash
    ./gradlew run
-4. Aparecerá el menú en consola para gestionar directores y películas.
+5. Aparecerá el menú en consola para gestionar directores y películas.
 
 # Clase Principal
 
@@ -68,11 +69,11 @@ La aplicación inicia en la clase `com.main.App`, que se encarga de:
 
 # Qué hacer si hay errores con la base de datos
 
-- Verifica que la carpeta `database` tenga permisos de escritura.
+- Verificar que la carpeta `database` tenga permisos de escritura.
 - Si la conexión o creación de tablas falla, se mostrarán mensajes de error en consola.
 - Para reiniciar la base de datos, elimina la carpeta `database` (esto eliminará los datos guardados).
 - El driver H2 está incluido en las dependencias gestionadas por Gradle, no requiere instalación manual.
-- Asegúrate de tener JDK 17 correctamente instalado.
+- Asegúrate de tenr la JDK 17 correctamente instalado.
 
 ---
 
