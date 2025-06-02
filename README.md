@@ -132,3 +132,9 @@ En cada gestión puedes:
 - `com.util`: Utilidades para conexión y creación de tablas.
 - `com.main`: Clase principal `App` con la lógica del menú.
 
+# Datos Personales
+
+- Gianfranco Canciani
+- comisión 1
+- legajo: 52611
+
