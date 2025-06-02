@@ -2,8 +2,8 @@
 
 ## Descripción
 
-Aplicación Java para gestionar directores y películas usando una base de datos H2 embebida.  
-Interfaz por consola con menús para realizar operaciones CRUD (crear, leer, actualizar, eliminar).
+Aplicación Java para gestionar directores y películas usando una base de datos H2 .  
+Interfaz por consola con menús para realizar operaciones CRUD.
 
 ---
 
